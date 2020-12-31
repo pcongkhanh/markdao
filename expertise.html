@@ -1,0 +1,801 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Dec 31 2020 09:39:24 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f718a53d870336b7e2ebcb9" data-wf-site="5f6aacb41dde085f1ea422a2">
+<head>
+  <meta charset="utf-8">
+  <title>Expertise</title>
+  <meta content="Expertise" property="og:title">
+  <meta content="Expertise" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/markdao-reborn.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Raleway:300,regular,500,600,700,800,900:latin,vietnamese","Work Sans:300,regular,500,600,700,800,900:latin,vietnamese"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+@media screen and (min-width: 1024px) {  
+  #luxy {
+    position: fixed;
+    width: 100vw;
+    padding-left: calc(10vw + 100px);
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  body::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  * {
+    scrollbar-width: thin;          /* "auto" or "thin"  */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.3);
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,.4);
+  }
+}
+  .navbar {
+    transition: opacity 1s, top 1s;
+  }
+</style>
+  <style>
+  body.dark-mode {
+    background-color: #151515;
+  }
+  .dark-mode {
+    color: #fbfbfb;
+  }
+  .dark-mode a{
+    color: #fbfbfb;
+  }
+  .dark-mode .w-tab-link.w--current {
+    color: #ff0081 !important;
+  }
+  .dark-mode .w-nav-link.w--current {
+    color: unset !important;
+  }
+  .dark-mode .nav-link-footer.w--current {
+    color: #151515 !important;
+    text-shadow: -1px 1px 1px #fff, -1px -1px 1px #fff, 1px -1px 1px #fff, 1px 0 1px #fff, 0 -1px 1px #fff, 1px 1px 1px #fff, -1px 0 1px #fff, 0 1px 1px #fff;
+  }
+  .dark-mode .w-nav-link:after {
+    background-color: #fbfbfb !important;
+  }
+  .dark-mode .color-dodge {
+    mix-blend-mode: normal !important;
+  }
+  .dark-mode .project-overview {
+    border-color: #fbfbfb;
+  }
+  .dark-mode .div-make-underline {
+    border-color: #fbfbfb;
+  }
+  .dark-mode .invert-fill {
+    fill: #fbfbfb;
+  }
+  .dark-mode .invert-stroke {
+    stroke: #fbfbfb;
+  }
+  .dark-mode .invert-text {
+    color: #fbfbfb;
+  }
+  @media screen and (max-width: 991px) {
+  	.dark-mode #navbar {
+    	filter: invert(1); 
+    }
+    .dark-mode .invert-filter {
+    	filter: invert(1); 
+    }
+    .dark-mode .nav-menu .behide {
+    	filter: invert(1);
+    }
+    .dark-mode .toggleThemeBlack:before {
+    	filter: invert(1);
+    }
+  }
+</style>
+  <style>
+</style>
+</head>
+<body><img src="images/Group.png" loading="lazy" id="Asterisk-logo" alt="" class="asterisk-logo"><img src="images/Markdao-Asterisk-green.svg" loading="lazy" id="Asterisk-contact" alt="" class="asterisk-contact">
+  <div data-collapse="medium" data-animation="default" data-duration="1000" id="navbar" data-doc-height="1" data-no-scroll="1" role="banner" class="navbar w-nav">
+    <a href="index.html" class="brand w-nav-brand"><img src="images/markdao-black.png" loading="lazy" alt="" class="logo-desktop"></a>
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <a href="#" class="nav-link behide w-nav-link">Về chúng tôi</a>
+      <a href="expertise.html" aria-current="page" class="nav-link behide w-nav-link w--current">Chuyên môn</a>
+      <a href="#" class="nav-link behide w-nav-link">Dự án</a>
+      <a href="#" class="nav-link behide w-nav-link">Góc nhìn</a>
+      <a href="#" class="nav-link behide w-nav-link">Nghề nghiệp</a>
+      <a href="#" class="nav-link-contact behide w-inline-block">
+        <div class="div-flex-center">
+          <div>Liên hệ</div><img src="images/Markdao-Asterisk-green.svg" loading="lazy" alt="" class="asterisk-contact-mobile">
+        </div>
+      </a>
+      <div class="btn-sticky-on-mobile">
+        <div class="theme-toggle w-embed"><label for="toggleThemeMobi" title="Toggle theme">
+            <input id="toggleThemeMobi" name="theme" type="checkbox">
+            <div class="toggleThemeBlack toggleThemeIcon"></div>
+          </label></div>
+        <a href="https://www.facebook.com/MarkdaoVNdigitalmarketing" target="_blank" class="link-button w-inline-block"><img src="images/facebook-black.png" loading="lazy" alt=""></a>
+        <a href="#" class="link-button w-inline-block"><img src="images/instagram-black.png" loading="lazy" alt=""></a>
+      </div>
+    </nav>
+    <div data-w-id="6456ec32-2bdf-c746-b364-69738605f6e9" class="menu-button w-nav-button">
+      <div data-w-id="bd5db525-b45c-b281-6fce-859414628e25" data-animation-type="lottie" data-src="documents/4464-burger-to-close-icon.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="2" data-duration="" data-ix2-initial-state="0" class="lottie-animation"></div>
+    </div>
+    <div class="w-embed">
+      <style>
+  a.nav-link:after {
+      content: '';
+      width: 0px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: black;   
+      z-index: 9;
+      transition: all 500ms ease;
+      opacity: 0;
+  }
+  a.nav-link-contact.front:after {
+      background-color: white;
+  }
+    a.nav-link-contact:after {
+      content: '';
+      width: 0px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: black;   
+      z-index: 9;
+      transition: all 500ms ease;
+      opacity: 0;
+  }
+  a.nav-link.front:after {
+      background-color: white;
+  }
+  a.nav-link:hover:after {
+      opacity: 1;
+      width: 100%;
+  }
+  a.nav-link.hover:after {
+      opacity: 1;
+      width: 100%;
+  }
+  a.nav-link.w--current:after {
+    opacity: 1;
+    width: 100%;
+  }
+	a.nav-link-contact.w--current:after {
+  	opacity: 1;
+    width: 100%;
+  }
+    .color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+  body {
+    isolation: isolate;
+  }
+  @media screen and (min-width: 991px) {
+  	#Asterisk-logo {
+  		left: calc(5vw + 67px);
+    	top: 75px;
+    	transition: all 1s;
+  	}
+	}
+  #Asterisk-contact {
+    right: calc(5vw + 25px);
+    transition: opacity 1s, top 1s;
+  }
+  #Asterisk-logo.make-big {
+  	left: 5vw;
+    top: 30px;
+    width: 100px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+   }
+	#Asterisk-contact.make-move {
+  	opacity: 0;
+    top: -22px;
+  }	
+</style>
+    </div>
+  </div>
+  <div data-collapse="medium" data-animation="default" data-duration="1000" data-no-scroll="1" data-doc-height="1" id="navbar-front" role="banner" class="navbar front color-dodge w-nav">
+    <a href="index.html" class="brand w-nav-brand"><img src="images/markdao-white.png" loading="lazy" alt=""></a>
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <a href="#" data-w-id="22ba8df6-915d-7fd6-c9d5-129e28b013f3" class="nav-link front w-nav-link">Về chúng tôi</a>
+      <a href="expertise.html" aria-current="page" class="nav-link front w-nav-link w--current">Chuyên môn</a>
+      <a href="#" class="nav-link front w-nav-link">Dự án</a>
+      <a href="#" class="nav-link front w-nav-link">Góc nhìn</a>
+      <a href="#" class="nav-link front w-nav-link">Nghề nghiệp</a>
+      <a data-w-id="22ba8df6-915d-7fd6-c9d5-129e28b013fd" href="#" class="nav-link-contact front w-inline-block">
+        <div class="div-flex-center">
+          <div>Liên hệ</div>
+        </div>
+      </a>
+      <div class="btn-sticky-on-mobile">
+        <a href="https://www.facebook.com/MarkdaoVNdigitalmarketing" target="_blank" class="link-button w-inline-block"><img src="images/facebook-black.png" loading="lazy" alt=""></a>
+        <a href="#" class="link-button w-inline-block"><img src="images/instagram-black.png" loading="lazy" alt=""></a>
+      </div>
+    </nav>
+    <div data-w-id="22ba8df6-915d-7fd6-c9d5-129e28b01407" class="menu-button w-nav-button">
+      <div data-w-id="22ba8df6-915d-7fd6-c9d5-129e28b01408" data-animation-type="lottie" data-src="documents/4464-burger-to-close-icon.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="2" data-duration="" data-ix2-initial-state="0" class="lottie-animation"></div>
+    </div>
+  </div>
+  <div class="btn-side-bar color-dodge">
+    <div class="btn-sticky">
+      <div class="theme-toggle w-embed"><label for="toggleTheme" title="Toggle theme">
+          <input id="toggleTheme" name="theme" type="checkbox">
+          <div class="toggleTheme toggleThemeIcon"></div>
+        </label>
+        <style>
+  .toggleTheme {
+    cursor: pointer;
+    height: 20px;
+    width: 40px;
+    transition: .5s;
+    border-radius: 20px;
+    border: 3px solid white;
+  }
+  .toggleTheme:before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    content: '';
+    transition: .5s;
+    background-image: url("https://uploads-ssl.webflow.com/5f6aacb41dde085f1ea422a2/5f8d16740d072eb98bc7d3d0_Markdao%20Asterisk%20white.png");
+    background-size: cover;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  input:checked+.toggleTheme {
+    background-color: #e5e5e5;
+    border-color: #fbfbfb;
+  }
+  #toggleTheme:checked+.toggleTheme:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    transform: translateX(20px);
+    background-image: url("https://uploads-ssl.webflow.com/5f6aacb41dde085f1ea422a2/5f8e673f7562e4d08876fa05_Markdao%20Asterisk%20pink.png");
+    background-size: cover;
+  }
+</style>
+      </div>
+      <a href="https://www.facebook.com/MarkdaoVNdigitalmarketing" target="_blank" class="link-button w-inline-block"><img src="images/facebook-app-logo-1.svg" loading="lazy" alt=""></a>
+      <a href="#" class="link-button w-inline-block"><img src="images/instagram-logo-1.png" loading="lazy" alt=""></a>
+    </div>
+  </div>
+  <div class="btn-side-bar">
+    <div class="btn-sticky">
+      <div class="theme-toggle w-embed"><label for="toggleThemeBlack" title="Toggle theme">
+          <input id="toggleThemeBlack" name="theme" type="checkbox">
+          <div class="toggleThemeBlack toggleThemeIcon"></div>
+        </label>
+        <style>
+  .toggleThemeBlack {
+    height: 20px;
+    width: 40px;
+    transition: .5s;
+    border-radius: 20px;
+    border: 3px solid black;
+  }
+  .toggleThemeBlack:before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    content: '';
+    transition: .5s;
+    background-image: url("https://uploads-ssl.webflow.com/5f6aacb41dde085f1ea422a2/5f8d171c57a4e262ddfd23d4_Markdao%20Asterisk%20black.png");
+    background-size: cover;
+  }
+  input:checked+.toggleThemeBlack:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    transform: translateX(20px);
+    background-image: url("https://uploads-ssl.webflow.com/5f6aacb41dde085f1ea422a2/5f8e673f7562e4d08876fa05_Markdao%20Asterisk%20pink.png");
+    background-size: cover;
+  }
+</style>
+      </div>
+      <a href="https://www.facebook.com/MarkdaoVNdigitalmarketing" target="_blank" class="link-button w-inline-block"><img src="images/facebook-app-logo.svg" loading="lazy" alt=""></a>
+      <a href="#" class="link-button w-inline-block"><img src="images/instagram-logo.png" loading="lazy" alt=""></a>
+    </div>
+  </div>
+  <div id="luxy" data-w-id="cf11c9bc-dcfa-ad5f-d2fc-5e750f0d7ec0" class="main-side">
+    <section class="section expertise1">
+      <h1 class="heading expertise">We value your business</h1>
+      <h1 class="heading _2 expertise">as important</h1>
+      <h1 class="heading _3 expertise">as our own</h1>
+      <div class="sub-title section-1 wo-img">We help businesses unlock and develop new digital products as well as streamline existing customer-facing online services, by researching and defining value propositions, developing delightful and valuable user experiences.</div>
+      <div class="image-2 image-contrast-99 w-embed"><svg width="100%" viewbox="0 0 952 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle class="invert-stroke" cx="348" cy="195" r="193.5" stroke="#333333" stroke-width="3" stroke-dasharray="8 8"></circle>
+          <text class="invert-fill" x="189" y="200" font-size="24px" fill="#151515">Doanh nghiệp</text>
+          <circle class="invert-stroke" cx="598" cy="195" r="193.5" stroke="#333333" stroke-width="3" stroke-dasharray="8 8"></circle>
+          <text class="invert-fill" x="596" y="200" font-size="24px" fill="#151515">Khách hàng</text>
+          <path d="M473 346.386C516.216 310.48 543.733 256.328 543.733 195.748C543.733 135.168 516.216 81.0157 473 45.1097C429.784 81.0157 402.267 135.168 402.267 195.748C402.267 256.328 429.784 310.48 473 346.386Z" fill="#FF0081"></path>
+          <text y="140" font-size="24px" fill="#fbfbfb">
+            <tspan x="417" dy="28">Giải pháp</tspan>
+            <tspan x="450" dy="28">của</tspan>
+            <tspan x="422" dy="28">Markdao</tspan>
+          </text>
+          <g clip-path="url(#clip0)">
+            <path d="M106.569 195.718L106.65 195.798V195.894L106.65 195.912L106.65 195.914L106.65 195.914L106.65 195.914L106.65 195.914V195.915L106.65 195.915L106.65 195.916L106.65 195.918L106.65 196.076L106.65 196.237L106.768 196.237L106.65 196.237L106.65 196.399L106.65 196.423C106.61 196.515 106.593 196.602 106.584 196.661C106.57 196.765 106.569 196.875 106.569 196.947C106.492 198.077 106.19 199.143 105.727 200.225C105.654 200.372 105.561 200.539 105.461 200.718L105.458 200.724C105.362 200.896 105.26 201.08 105.176 201.248L74.3395 254.525C74.3393 254.526 74.3392 254.526 74.339 254.526C71.7307 258.975 66.4786 260.25 62.371 257.511C58.2493 254.764 57.0753 248.846 59.6195 244.451L59.6197 244.451L81.7441 206.177L82.1778 205.427H81.3113L39.8077 205.427C35.1153 205.427 31.1833 201.249 31.1833 195.995C31.1833 190.741 35.1148 186.564 39.8067 186.563C39.807 186.563 39.8073 186.563 39.8077 186.563L81.391 186.644L82.2595 186.646L81.8249 185.894L59.7004 147.62L59.7002 147.62C57.1612 143.234 58.4014 137.387 62.4606 134.553C66.4802 131.747 71.8075 133.092 74.3378 137.462C74.3379 137.462 74.338 137.462 74.3381 137.462L105.102 190.835L105.102 190.835L105.106 190.842C105.335 191.223 105.488 191.527 105.647 191.845C106.112 192.933 106.414 194.004 106.49 195.14L106.502 195.327L106.568 195.393C106.568 195.397 106.568 195.402 106.568 195.407C106.569 195.436 106.569 195.469 106.569 195.51V195.718Z" stroke="#FF0081"></path>
+          </g>
+          <g clip-path="url(#clip1)">
+            <path d="M845.421 195.718L845.34 195.798V195.894L845.34 195.912L845.34 195.914L845.34 195.914L845.34 195.914L845.34 195.914V195.915L845.34 195.915L845.34 195.916L845.34 195.918L845.34 196.076L845.34 196.237L845.222 196.237L845.34 196.237L845.34 196.399L845.34 196.423C845.38 196.515 845.397 196.602 845.405 196.661C845.42 196.765 845.421 196.875 845.421 196.947C845.498 198.077 845.8 199.143 846.262 200.225C846.336 200.372 846.429 200.539 846.528 200.718L846.531 200.724C846.627 200.896 846.73 201.08 846.814 201.248L877.65 254.525C877.651 254.526 877.651 254.526 877.651 254.526C880.259 258.975 885.511 260.25 889.619 257.511C893.741 254.764 894.915 248.846 892.37 244.451L892.37 244.451L870.246 206.177L869.812 205.427H870.679L912.182 205.427C916.875 205.427 920.807 201.249 920.807 195.995C920.807 190.741 916.875 186.564 912.183 186.563C912.183 186.563 912.183 186.563 912.182 186.563L870.599 186.644L869.73 186.646L870.165 185.894L892.289 147.62L892.29 147.62C894.829 143.234 893.588 137.387 889.529 134.553C885.51 131.747 880.182 133.092 877.652 137.462C877.652 137.462 877.652 137.462 877.652 137.462L846.888 190.835L846.888 190.835L846.883 190.842C846.655 191.223 846.502 191.527 846.343 191.845C845.878 192.933 845.576 194.004 845.5 195.14L845.488 195.327L845.422 195.393C845.422 195.397 845.422 195.402 845.422 195.407C845.421 195.436 845.421 195.469 845.421 195.51V195.718Z" stroke="#FF0081"></path>
+          </g>
+          <defs>
+            <clippath id="clip0">
+              <rect width="140" height="140" fill="white" transform="translate(98.9949 97) rotate(45)"></rect>
+            </clippath>
+            <clippath id="clip1">
+              <rect width="140" height="140" fill="white" transform="matrix(-0.707107 0.707107 0.707107 0.707107 852.995 97)"></rect>
+            </clippath>
+          </defs>
+        </svg></div>
+    </section>
+    <section class="section expertise2">
+      <div>
+        <div class="sub-title mb-40px">Dịch vụ của Markdao</div>
+        <div class="div-for-expertise-type">
+          <div class="detail-expertise-type">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="invert-fill" fill-rule="evenodd" clip-rule="evenodd" d="M25.8904 21.96C25.2869 21.96 24.6889 21.9835 24.0974 22.0296L24.0197 21.0326C24.637 20.9845 25.2609 20.96 25.8904 20.96C26.5199 20.96 27.1438 20.9845 27.7612 21.0326L27.6835 22.0296C27.092 21.9835 26.494 21.96 25.8904 21.96ZM34.6259 23.6968C33.5314 23.2415 32.3939 22.8692 31.2211 22.5877L31.4545 21.6153C32.6792 21.9093 33.8671 22.2981 35.01 22.7735L34.6259 23.6968ZM20.5598 22.5877C19.387 22.8692 18.2495 23.2415 17.155 23.6968L16.7709 22.7735C17.9138 22.2981 19.1017 21.9093 20.3264 21.6153L20.5598 22.5877ZM40.7073 27.4416C39.8015 26.6648 38.8342 25.9579 37.8139 25.3294L38.3384 24.4779C39.4035 25.1341 40.413 25.8719 41.3583 26.6826L40.7073 27.4416ZM13.967 25.3294C12.9466 25.9579 11.9794 26.6648 11.0735 27.4416L10.4225 26.6826C11.3679 25.8719 12.3774 25.1341 13.4425 24.4779L13.967 25.3294ZM45.3404 32.8789C44.7144 31.8564 44.0104 30.8869 43.2367 29.9789L43.9978 29.3303C44.8052 30.2778 45.54 31.2896 46.1933 32.3568L45.3404 32.8789ZM8.54421 29.9789C7.77043 30.8869 7.06643 31.8564 6.44049 32.8789L5.58761 32.3568C6.24091 31.2896 6.97563 30.2778 7.78309 29.3303L8.54421 29.9789ZM48.0678 39.4785C47.7879 38.305 47.4177 37.1667 46.9649 36.0713L47.889 35.6893C48.3618 36.8329 48.7483 38.0214 49.0405 39.2465L48.0678 39.4785ZM4.81598 36.0713C4.36318 37.1667 3.99295 38.305 3.71307 39.4785L2.74035 39.2465C3.03255 38.0214 3.41909 36.8329 3.89183 35.6893L4.81598 36.0713ZM48.6918 44.8106C48.6918 44.2069 48.6684 43.6089 48.6226 43.0172L49.6196 42.94C49.6674 43.5573 49.6918 44.1811 49.6918 44.8106H48.6918ZM3.15827 43.0172C3.11246 43.6089 3.08911 44.2069 3.08911 44.8106H2.08911C2.08911 44.1811 2.11345 43.5573 2.16126 42.94L3.15827 43.0172ZM4.17807 45.8111H1V49.0001H4.17807V45.8111ZM1 44.8111H0V45.8111V49.0001V50.0001H1H4.17807H5.17807V49.0001V45.8111V44.8111H4.17807H1ZM47.6025 45.8111H50.7806V49.0001H47.6025V45.8111ZM46.6025 44.8111H47.6025H50.7806H51.7806V45.8111V49.0001V50.0001H50.7806H47.6025H46.6025V49.0001V45.8111V44.8111Z" fill="#151515"></path>
+                <rect x="21.561" y="16.2705" width="7.60977" height="7.78353" fill="#FF0081"></rect>
+                <path d="M1.26831 18.2168H49.4635" stroke="#FF0081"></path>
+                <ellipse cx="3.17074" cy="18.2168" rx="3.17074" ry="3.24314" fill="#FF0081"></ellipse>
+                <ellipse cx="48.8292" cy="18.2168" rx="3.17074" ry="3.24314" fill="#FF0081"></ellipse>
+                <path d="M25.366 13.6758L19.8742 4.91931H30.8579L25.366 13.6758Z" fill="#FF0081"></path>
+              </svg></div>
+            <h2 class="heading-2">Graphic Design<br>&amp; Branding Identity</h2>
+            <div class="text-block-4">Markdao giúp doanh nghiệp làm một bộ branding đẹp đẽ và nó sẽ gắn liền đến câu chuyện mà thương hiệu muốn gửi gắm tới.</div>
+            <a data-w-id="ce4ecc75-5bbb-1778-1110-4843c2afdbf0" href="#" class="link w-inline-block">
+              <div class="div-flex-center">
+                <div>Tìm hiểu thêm</div><img src="images/Markdao-Asterisk-green.svg" loading="lazy" alt="" class="asterik">
+              </div>
+            </a>
+          </div>
+          <div class="detail-expertise-type mr0">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="invert-stroke" d="M23.2142 13.8929L25.0713 12.9643L25.2895 13.4174L25.9978 13.0633L26.6895 13.4157L26.911 12.9643L28.7331 13.8929L28.5116 14.3443L30.3337 15.2729L30.5552 14.8214L32.3773 15.75L32.1558 16.2015L33.9779 17.13L34.1994 16.6786L36.0215 17.6071L35.8 18.0586L37.6221 18.9872L37.8436 18.5357L39.6657 19.4643L39.4442 19.9157L41.2663 20.8443L41.4878 20.3929L43.3099 21.3214L43.0884 21.7729L44.9105 22.7015L45.132 22.25L46.9541 23.1786L46.7326 23.63L48.5547 24.5586L48.7762 24.1071L50.5983 25.0357L50.3768 25.4872L50.402 25.5L50.3768 25.5128L50.5983 25.9643L48.7762 26.8929L48.5547 26.4414L46.7326 27.37L46.9541 27.8214L45.132 28.75L44.9105 28.2986L43.0884 29.2271L43.3099 29.6786L41.4878 30.6071L41.2663 30.1557L39.4442 31.0843L39.6657 31.5357L37.8436 32.4643L37.6221 32.0128L35.8 32.9414L36.0215 33.3929L34.1994 34.3214L33.9779 33.87L32.1558 34.7986L32.3773 35.25L30.5552 36.1786L30.3337 35.7271L28.5116 36.6557L28.7331 37.1071L26.911 38.0357L26.6895 37.5843L25.9978 37.9368L25.2895 37.5826L25.0714 38.0357L23.2142 37.1071L23.4323 36.654L21.5752 35.7254L21.3571 36.1786L19.4999 35.25L19.718 34.7969L17.8609 33.8683L17.6428 34.3214L15.7856 33.3929L16.0037 32.9397L14.1466 32.0111L13.9285 32.4643L12.0713 31.5357L12.2895 31.0826L10.4323 30.154L10.2142 30.6071L8.35706 29.6786L8.57517 29.2254L6.71802 28.2969L6.49992 28.75L4.64277 27.8214L4.86088 27.3683L3.00374 26.4397L2.78563 26.8929L0.928488 25.9643L1.14659 25.5111L1.12432 25.5L1.14659 25.4889L0.928487 25.0357L2.78563 24.1071L3.00374 24.5603L4.86088 23.6317L4.64277 23.1786L6.49992 22.25L6.71802 22.7032L8.57517 21.7746L8.35706 21.3214L10.2142 20.3929L10.4323 20.846L12.2895 19.9174L12.0713 19.4643L13.9285 18.5357L14.1466 18.9889L16.0037 18.0603L15.7856 17.6071L17.6428 16.6786L17.8609 17.1317L19.718 16.2032L19.4999 15.75L21.3571 14.8214L21.5752 15.2746L23.4323 14.346L23.2142 13.8929Z" stroke="#151515" stroke-dasharray="2 2"></path>
+                <path class="invert-stroke" d="M23.3248 24.7287L25.1908 23.827L25.4084 24.2772L26.1184 23.9341L26.8218 24.2908L27.048 23.8449L28.8963 24.7823L28.6701 25.2282L30.5184 26.1657L30.7446 25.7197L32.5929 26.6571L32.3667 27.1031L34.215 28.0405L34.4412 27.5946L36.2895 28.532L36.0633 28.9779L37.9116 29.9153L38.1378 29.4694L39.9861 30.4068L39.7599 30.8527L41.6082 31.7901L41.8344 31.3442L43.6827 32.2816L43.4565 32.7276L45.3048 33.665L45.531 33.219L47.3793 34.1565L47.1531 34.6024L49.0014 35.5398L49.2276 35.0939L51.0759 36.0313L50.8497 36.4772L50.8819 36.4935L50.8637 36.5025L51.0847 36.951L49.2541 37.8531L49.0331 37.4046L47.2025 38.3066L47.4235 38.7551L45.5929 39.6571L45.3719 39.2086L43.5412 40.1107L43.7622 40.5592L41.9316 41.4612L41.7106 41.0127L39.88 41.9148L40.101 42.3633L38.2704 43.2653L38.0494 42.8168L36.2188 43.7188L36.4398 44.1673L34.6092 45.0694L34.3882 44.6209L32.5576 45.5229L32.7786 45.9714L30.948 46.8735L30.727 46.425L28.8963 47.327L29.1173 47.7755L27.2867 48.6775L27.0657 48.229L26.3726 48.5706L25.6524 48.2121L25.4296 48.6597L23.5459 47.7219L23.7688 47.2743L21.8851 46.3366L21.6622 46.7842L19.7786 45.8464L20.0014 45.3988L18.1177 44.4611L17.8949 44.9087L16.0112 43.9709L16.2341 43.5233L14.3504 42.5856L14.1276 43.0332L12.2439 42.0954L12.4667 41.6478L10.583 40.7101L10.3602 41.1577L8.47653 40.2199L8.69936 39.7723L6.81569 38.8345L6.59286 39.2821L4.70918 38.3444L4.93201 37.8968L3.04834 36.959L2.82551 37.4066L0.941838 36.4689L1.16467 36.0213L1.13535 36.0067L1.15053 35.9993L0.932991 35.5492L2.79898 34.6474L3.01652 35.0976L4.88251 34.1959L4.66496 33.7457L6.53095 32.844L6.7485 33.2942L8.61448 32.3925L8.39694 31.9423L10.2629 31.0406L10.4805 31.4908L12.3465 30.5891L12.1289 30.1389L13.9949 29.2372L14.2124 29.6874L16.0784 28.7857L15.8609 28.3355L17.7269 27.4338L17.9444 27.884L19.8104 26.9823L19.5929 26.5321L21.4588 25.6304L21.6764 26.0806L23.5424 25.1789L23.3248 24.7287Z" stroke="#151515" stroke-dasharray="2 2"></path>
+                <path d="M26.187 2.00237L52.0001 15.25L26.3084 28.25L0.000103571 15L26.187 2.00237Z" fill="#EB8357"></path>
+                <defs>
+                  <clippath id="clip0">
+                    <rect width="52" height="52" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg></div>
+            <h2 class="heading-2">Website Design<br>&amp; Development</h2>
+            <div class="text-block-4">Markdao có thể giúp bạn thiết kế một website đúng theo bạn mong ước thoả với điều kiện User Experience &amp; User Interface với bảo hành vĩnh viễn.</div>
+            <a data-w-id="b8cd46e3-9e22-e070-36d2-962f41917e2a" href="#" class="link w-inline-block">
+              <div class="div-flex-center">
+                <div>Tìm hiểu thêm</div><img src="images/Markdao-Asterisk-green.svg" loading="lazy" alt="" class="asterik">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="div-for-expertise-type">
+          <div class="detail-expertise-type">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle class="invert-stroke" cx="26" cy="26" r="25.5" stroke="#151515" stroke-dasharray="2 2"></circle>
+                <path d="M11 19H27" stroke="#7D57EB" stroke-width="2"></path>
+                <path d="M11 26H34" stroke="#7D57EB" stroke-width="2"></path>
+                <path d="M11 34H40.5" stroke="#7D57EB" stroke-width="2"></path>
+              </svg></div>
+            <h2 class="heading-2">Social Media<br>Marketing</h2>
+            <div class="text-block-4">Dẫn dắt câu chuyện ấy tiếp cận với khách hàng qua công nghệ.<br></div>
+            <a data-w-id="92f465b7-3085-a28c-cff8-b5abf9279b53" href="#" class="link w-inline-block">
+              <div class="div-flex-center">
+                <div>Tìm hiểu thêm</div><img src="images/Markdao-Asterisk-green.svg" loading="lazy" alt="" class="asterik">
+              </div>
+            </a>
+          </div>
+          <div class="detail-expertise-type mr0">
+            <div class="w-embed"><svg width="63" height="52" viewbox="0 0 63 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="invert-stroke" x="0.5" y="20" width="12.6489" height="31.5" stroke="#151515" stroke-dasharray="2 2"></rect>
+                <rect class="invert-stroke" x="16.8787" y="13.5" width="12.6489" height="38" stroke="#151515" stroke-dasharray="2 2"></rect>
+                <rect class="invert-stroke" x="33.2573" y="7" width="12.6489" height="44.5" stroke="#151515" stroke-dasharray="2 2"></rect>
+                <rect x="49.136" width="13.6489" height="52" fill="#5789EB"></rect>
+              </svg></div>
+            <h2 class="heading-2">Digital Marketing</h2>
+            <div class="text-block-4">Nếu là SEO, SEM &amp; PPC thì Markdao  có khả năng giúp bạn đạt được hết, miễn sao bạn trả tiền.<br></div>
+            <a data-w-id="c6ea468f-0954-d914-ef2f-a97aa32e9684" href="#" class="link w-inline-block">
+              <div class="div-flex-center">
+                <div>Tìm hiểu thêm</div><img src="images/Markdao-Asterisk-green.svg" loading="lazy" alt="" class="asterik">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section expertise3 left-0"><img src="images/Rectangle-225-compressed.jpg" alt="" class="image-3">
+      <div class="div-block-8">
+        <div class="sub-title mb-40px">Vì sao chọn Markdao</div>
+        <div class="div-for-expertise-type">
+          <div class="detail-expertise-type special">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle class="invert-stroke" cx="26" cy="26" r="25.5" stroke="#151515" stroke-dasharray="2 2"></circle>
+                <circle cx="26" cy="26" r="9" fill="#FF0081"></circle>
+                <circle class="invert-stroke" cx="13" cy="15" r="7.5" stroke="#151515"></circle>
+                <circle class="invert-stroke" cx="39" cy="37" r="7.5" stroke="#151515"></circle>
+              </svg></div>
+            <h2 class="heading-2">Expertise</h2>
+            <div class="text-block-4">Markdao has over 5 years of experience, with hundreds of journeys and websites built with a broad spectrum of technologies delivered to satisfied clients.</div>
+          </div>
+          <div class="detail-expertise-type special mr0">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M35.1841 12.1053V48L17.8158 39.8947V48H17.8157V4L35.1841 12.1053Z"></path>
+                </mask>
+                <path class="invert-fill" d="M35.1841 48L34.9727 48.4531L35.6841 48.7851V48H35.1841ZM35.1841 12.1053H35.6841V11.7868L35.3955 11.6522L35.1841 12.1053ZM17.8158 39.8947L18.0272 39.4416L17.3158 39.1096V39.8947H17.8158ZM17.8158 48V48.5H18.3158V48H17.8158ZM17.8157 48H17.3157V48.5H17.8157V48ZM17.8157 4L18.0271 3.54691L17.3157 3.2149V4H17.8157ZM35.3955 47.5469L34.5271 47.1416L34.1042 48.0478L34.9727 48.4531L35.3955 47.5469ZM32.7903 46.3311L31.0535 45.5206L30.6306 46.4268L32.3674 47.2373L32.7903 46.3311ZM29.3166 44.7101L27.5798 43.8995L27.1569 44.8057L28.8937 45.6162L29.3166 44.7101ZM25.843 43.089L24.1061 42.2785L23.6833 43.1847L25.4201 43.9952L25.843 43.089ZM22.3693 41.468L20.6325 40.6574L20.2096 41.5636L21.9464 42.3741L22.3693 41.468ZM18.8956 39.8469L18.0272 39.4416L17.6043 40.3478L18.4728 40.7531L18.8956 39.8469ZM17.3158 39.8947V40.9079H18.3158V39.8947H17.3158ZM17.3158 42.9342V44.9605H18.3158V42.9342H17.3158ZM17.3158 46.9868V48H18.3158V46.9868H17.3158ZM17.8158 47.5H17.8158V48.5H17.8158V47.5ZM17.8157 47.5H17.8157V48.5H17.8157V47.5ZM18.3157 48V47H17.3157V48H18.3157ZM18.3157 45V43H17.3157V45H18.3157ZM18.3157 41V39H17.3157V41H18.3157ZM18.3157 37V35H17.3157V37H18.3157ZM18.3157 33V31H17.3157V33H18.3157ZM18.3157 29V27H17.3157V29H18.3157ZM18.3157 25V23H17.3157V25H18.3157ZM18.3157 21V19H17.3157V21H18.3157ZM18.3157 17V15H17.3157V17H18.3157ZM18.3157 13V11H17.3157V13H18.3157ZM18.3157 9V7H17.3157V9H18.3157ZM18.3157 5V4H17.3157V5H18.3157ZM17.6042 4.45309L18.4727 4.85835L18.8955 3.95217L18.0271 3.54691L17.6042 4.45309ZM20.2095 5.66888L21.9463 6.47941L22.3692 5.57322L20.6324 4.7627L20.2095 5.66888ZM23.6832 7.28993L25.42 8.10046L25.8429 7.19428L24.1061 6.38375L23.6832 7.28993ZM27.1569 8.91099L28.8937 9.72151L29.3166 8.81533L27.5797 8.0048L27.1569 8.91099ZM30.6305 10.532L32.3674 11.3426L32.7903 10.4364L31.0534 9.62586L30.6305 10.532ZM34.1042 12.1531L34.9727 12.5584L35.3955 11.6522L34.5271 11.2469L34.1042 12.1531ZM34.6841 12.1053V13.1023H35.6841V12.1053H34.6841ZM34.6841 15.0965V17.0906H35.6841V15.0965H34.6841ZM34.6841 19.0848V21.0789H35.6841V19.0848H34.6841ZM34.6841 23.0731V25.0673H35.6841V23.0731H34.6841ZM34.6841 27.0614V29.0556H35.6841V27.0614H34.6841ZM34.6841 31.0497V33.0439H35.6841V31.0497H34.6841ZM34.6841 35.038V37.0322H35.6841V35.038H34.6841ZM34.6841 39.0263V41.0205H35.6841V39.0263H34.6841ZM34.6841 43.0146V45.0088H35.6841V43.0146H34.6841ZM34.6841 47.0029V48H35.6841V47.0029H34.6841ZM35.1841 48L34.7612 48.9062L36.1841 49.5702V48H35.1841ZM35.1841 12.1053H36.1841V11.4684L35.607 11.1991L35.1841 12.1053ZM17.8158 39.8947L18.2387 38.9886L16.8158 38.3245V39.8947H17.8158ZM17.8158 48V49H18.8158V48H17.8158ZM17.8157 48H16.8157V49H17.8157V48ZM17.8157 4L18.2386 3.09382L16.8157 2.4298V4H17.8157ZM35.607 47.0938L34.7386 46.6886L33.8928 48.5009L34.7612 48.9062L35.607 47.0938ZM33.0017 45.878L31.2649 45.0675L30.4191 46.8799L32.156 47.6904L33.0017 45.878ZM29.5281 44.257L27.7912 43.4464L26.9455 45.2588L28.6823 46.0693L29.5281 44.257ZM26.0544 42.6359L24.3176 41.8254L23.4718 43.6378L25.2086 44.4483L26.0544 42.6359ZM22.5808 41.0149L20.8439 40.2043L19.9981 42.0167L21.735 42.8272L22.5808 41.0149ZM19.1071 39.3938L18.2387 38.9886L17.3929 40.8009L18.2613 41.2062L19.1071 39.3938ZM16.8158 39.8947V40.9079H18.8158V39.8947H16.8158ZM16.8158 42.9342V44.9605H18.8158V42.9342H16.8158ZM16.8158 46.9868V48H18.8158V46.9868H16.8158ZM17.8158 47H17.8158V49H17.8158V47ZM17.8157 47H17.8157V49H17.8157V47ZM18.8157 48V47H16.8157V48H18.8157ZM18.8157 45V43H16.8157V45H18.8157ZM18.8157 41V39H16.8157V41H18.8157ZM18.8157 37V35H16.8157V37H18.8157ZM18.8157 33V31H16.8157V33H18.8157ZM18.8157 29V27H16.8157V29H18.8157ZM18.8157 25V23H16.8157V25H18.8157ZM18.8157 21V19H16.8157V21H18.8157ZM18.8157 17V15H16.8157V17H18.8157ZM18.8157 13V11H16.8157V13H18.8157ZM18.8157 9V7H16.8157V9H18.8157ZM18.8157 5V4H16.8157V5H18.8157ZM17.3928 4.90618L18.2612 5.31145L19.107 3.49908L18.2386 3.09382L17.3928 4.90618ZM19.9981 6.12197L21.7349 6.9325L22.5807 5.12013L20.8438 4.30961L19.9981 6.12197ZM23.4717 7.74303L25.2086 8.55355L26.0543 6.74119L24.3175 5.93066L23.4717 7.74303ZM26.9454 9.36408L28.6823 10.1746L29.528 8.36224L27.7912 7.55171L26.9454 9.36408ZM30.4191 10.9851L32.1559 11.7957L33.0017 9.98329L31.2649 9.17276L30.4191 10.9851ZM33.8928 12.6062L34.7612 13.0114L35.607 11.1991L34.7386 10.7938L33.8928 12.6062ZM34.1841 12.1053V13.1023H36.1841V12.1053H34.1841ZM34.1841 15.0965V17.0906H36.1841V15.0965H34.1841ZM34.1841 19.0848V21.0789H36.1841V19.0848H34.1841ZM34.1841 23.0731V25.0673H36.1841V23.0731H34.1841ZM34.1841 27.0614V29.0556H36.1841V27.0614H34.1841ZM34.1841 31.0497V33.0439H36.1841V31.0497H34.1841ZM34.1841 35.038V37.0322H36.1841V35.038H34.1841ZM34.1841 39.0263V41.0205H36.1841V39.0263H34.1841ZM34.1841 43.0146V45.0088H36.1841V43.0146H34.1841ZM34.1841 47.0029V48H36.1841V47.0029H34.1841Z" fill="#151515" mask="url(#path-1-inside-1)"></path>
+                <mask id="path-3-inside-2" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M47.9209 12.1053V48H47.9208L30.5525 39.8948V4L47.9209 12.1053Z"></path>
+                </mask>
+                <path class="invert-fill" d="M47.9209 48V48.5H48.4209V48H47.9209ZM47.9209 12.1053H48.4209V11.7868L48.1324 11.6522L47.9209 12.1053ZM47.9208 48L47.7094 48.4531L47.8099 48.5H47.9208V48ZM30.5525 39.8948H30.0525V40.2132L30.341 40.3479L30.5525 39.8948ZM30.5525 4L30.7639 3.54691L30.0525 3.2149V4H30.5525ZM47.9209 47.5H47.9209V48.5H47.9209V47.5ZM47.9208 47.5H47.9208V48.5H47.9208V47.5ZM48.1323 47.5469L47.2638 47.1416L46.841 48.0478L47.7094 48.4531L48.1323 47.5469ZM45.527 46.3311L43.7902 45.5206L43.3673 46.4268L45.1041 47.2373L45.527 46.3311ZM42.0533 44.7101L40.3165 43.8996L39.8936 44.8057L41.6305 45.6163L42.0533 44.7101ZM38.5797 43.089L36.8428 42.2785L36.42 43.1847L38.1568 43.9952L38.5797 43.089ZM35.106 41.468L33.3692 40.6575L32.9463 41.5637L34.6831 42.3742L35.106 41.468ZM31.6324 39.847L30.7639 39.4417L30.341 40.3479L31.2095 40.7531L31.6324 39.847ZM31.0525 39.8948V38.8977H30.0525V39.8948H31.0525ZM31.0525 36.9036V34.9094H30.0525V36.9036H31.0525ZM31.0525 32.9152V30.9211H30.0525V32.9152H31.0525ZM31.0525 28.9269V26.9328H30.0525V28.9269H31.0525ZM31.0525 24.9386V22.9445H30.0525V24.9386H31.0525ZM31.0525 20.9503V18.9562H30.0525V20.9503H31.0525ZM31.0525 16.962V14.9679H30.0525V16.962H31.0525ZM31.0525 12.9737V10.9795H30.0525V12.9737H31.0525ZM31.0525 8.98539V6.99124H30.0525V8.98539H31.0525ZM31.0525 4.99708V4H30.0525V4.99708H31.0525ZM30.341 4.45309L31.2095 4.85835L31.6324 3.95217L30.7639 3.54691L30.341 4.45309ZM32.9463 5.66888L34.6832 6.47941L35.106 5.57322L33.3692 4.7627L32.9463 5.66888ZM36.42 7.28993L38.1568 8.10046L38.5797 7.19428L36.8429 6.38375L36.42 7.28993ZM39.8937 8.91099L41.6305 9.72151L42.0534 8.81533L40.3166 8.0048L39.8937 8.91099ZM43.3674 10.532L45.1042 11.3426L45.5271 10.4364L43.7902 9.62586L43.3674 10.532ZM46.841 12.1531L47.7095 12.5584L48.1324 11.6522L47.2639 11.2469L46.841 12.1531ZM47.4209 12.1053V13.1023H48.4209V12.1053H47.4209ZM47.4209 15.0965V17.0906H48.4209V15.0965H47.4209ZM47.4209 19.0848V21.0789H48.4209V19.0848H47.4209ZM47.4209 23.0731V25.0673H48.4209V23.0731H47.4209ZM47.4209 27.0614V29.0556H48.4209V27.0614H47.4209ZM47.4209 31.0497V33.0439H48.4209V31.0497H47.4209ZM47.4209 35.038V37.0322H48.4209V35.038H47.4209ZM47.4209 39.0263V41.0205H48.4209V39.0263H47.4209ZM47.4209 43.0146V45.0088H48.4209V43.0146H47.4209ZM47.4209 47.0029V48H48.4209V47.0029H47.4209ZM47.9209 48V49H48.9209V48H47.9209ZM47.9209 12.1053H48.9209V11.4684L48.3438 11.1991L47.9209 12.1053ZM47.9208 48L47.4979 48.9062L47.699 49H47.9208V48ZM30.5525 39.8948H29.5525V40.5316L30.1296 40.801L30.5525 39.8948ZM30.5525 4L30.9754 3.09382L29.5525 2.4298V4H30.5525ZM47.9209 47H47.9209V49H47.9209V47ZM47.9208 47H47.9208V49H47.9208V47ZM48.3437 47.0938L47.4753 46.6886L46.6295 48.5009L47.4979 48.9062L48.3437 47.0938ZM45.7384 45.878L44.0016 45.0675L43.1558 46.8799L44.8927 47.6904L45.7384 45.878ZM42.2648 44.257L40.528 43.4465L39.6822 45.2588L41.419 46.0694L42.2648 44.257ZM38.7911 42.6359L37.0543 41.8254L36.2085 43.6378L37.9453 44.4483L38.7911 42.6359ZM35.3175 41.0149L33.5806 40.2044L32.7349 42.0168L34.4717 42.8273L35.3175 41.0149ZM31.8438 39.3939L30.9754 38.9886L30.1296 40.801L30.998 41.2062L31.8438 39.3939ZM31.5525 39.8948V38.8977H29.5525V39.8948H31.5525ZM31.5525 36.9036V34.9094H29.5525V36.9036H31.5525ZM31.5525 32.9152V30.9211H29.5525V32.9152H31.5525ZM31.5525 28.9269V26.9328H29.5525V28.9269H31.5525ZM31.5525 24.9386V22.9445H29.5525V24.9386H31.5525ZM31.5525 20.9503V18.9562H29.5525V20.9503H31.5525ZM31.5525 16.962V14.9679H29.5525V16.962H31.5525ZM31.5525 12.9737V10.9795H29.5525V12.9737H31.5525ZM31.5525 8.98539V6.99124H29.5525V8.98539H31.5525ZM31.5525 4.99708V4H29.5525V4.99708H31.5525ZM30.1296 4.90618L30.998 5.31145L31.8438 3.49908L30.9754 3.09382L30.1296 4.90618ZM32.7349 6.12197L34.4717 6.9325L35.3175 5.12013L33.5806 4.30961L32.7349 6.12197ZM36.2086 7.74303L37.9454 8.55355L38.7912 6.74119L37.0543 5.93066L36.2086 7.74303ZM39.6822 9.36408L41.4191 10.1746L42.2648 8.36224L40.528 7.55171L39.6822 9.36408ZM43.1559 10.9851L44.8928 11.7957L45.7385 9.98329L44.0017 9.17276L43.1559 10.9851ZM46.6296 12.6062L47.498 13.0114L48.3438 11.1991L47.4754 10.7938L46.6296 12.6062ZM46.9209 12.1053V13.1023H48.9209V12.1053H46.9209ZM46.9209 15.0965V17.0906H48.9209V15.0965H46.9209ZM46.9209 19.0848V21.0789H48.9209V19.0848H46.9209ZM46.9209 23.0731V25.0673H48.9209V23.0731H46.9209ZM46.9209 27.0614V29.0556H48.9209V27.0614H46.9209ZM46.9209 31.0497V33.0439H48.9209V31.0497H46.9209ZM46.9209 35.038V37.0322H48.9209V35.038H46.9209ZM46.9209 39.0263V41.0205H48.9209V39.0263H46.9209ZM46.9209 43.0146V45.0088H48.9209V43.0146H46.9209ZM46.9209 47.0029V48H48.9209V47.0029H46.9209Z" fill="#151515" mask="url(#path-3-inside-2)"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.4473 12.1053V48L5.07895 39.8947V48H5.07886V4L22.4473 12.1053Z" fill="#EB8357"></path>
+              </svg></div>
+            <h2 class="heading-2">Transparency</h2>
+            <div class="text-block-4">Markdao is client-focused, and motivated to help you succeed. From the biggest ideas to the smallest detail, we strive to improve, optimize, and innovate every aspect of your product for quality and performance.</div>
+          </div>
+        </div>
+        <div class="div-for-expertise-type">
+          <div class="detail-expertise-type special">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" fill="#7D57EB"></rect>
+                <rect class="invert-stroke" x="28.5" y="0.5" width="23" height="23" stroke="#151515" stroke-dasharray="2 2"></rect>
+                <rect class="invert-stroke" x="28.5" y="28.5" width="23" height="23" stroke="#151515" stroke-dasharray="2 2"></rect>
+                <rect class="invert-stroke" x="0.5" y="28.5" width="23" height="23" stroke="#151515" stroke-dasharray="2 2"></rect>
+              </svg></div>
+            <h2 class="heading-2">Dedication</h2>
+            <div class="text-block-4">Dẫn dắt câu chuyện ấy tiếp cận với khách hàng qua công nghệ.<br></div>
+          </div>
+          <div class="detail-expertise-type special mr0">
+            <div class="w-embed"><svg width="52" height="52" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9705 42.9411L33.941 25.9706L16.9705 9V42.9411Z" fill="#5789EB"></path>
+                <mask id="path-2-inside-1" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 42.9411L16.9706 25.9706L0 9V42.9411Z"></path>
+                </mask>
+                <path class="invert-fill" d="M16.9706 25.9706L17.3241 26.3241L17.6777 25.9706L17.3241 25.617L16.9706 25.9706ZM0 42.9411H-0.5V44.1482L0.353553 43.2947L0 42.9411ZM0 9L0.353553 8.64645L-0.5 7.79289L-0.5 9H0ZM17.3241 25.617L16.617 24.9099L15.9099 25.617L16.617 26.3241L17.3241 25.617ZM15.2028 23.4957L13.7886 22.0815L13.0815 22.7886L14.4957 24.2028L15.2028 23.4957ZM12.3744 20.6673L10.9602 19.253L10.253 19.9602L11.6673 21.3744L12.3744 20.6673ZM9.54594 17.8388L8.13173 16.4246L7.42462 17.1317L8.83883 18.5459L9.54594 17.8388ZM6.71751 15.0104L5.3033 13.5962L4.59619 14.3033L6.01041 15.7175L6.71751 15.0104ZM3.88909 12.182L2.47487 10.7678L1.76777 11.4749L3.18198 12.8891L3.88909 12.182ZM1.06066 9.35355L0.353553 8.64645L-0.353553 9.35355L0.353554 10.0607L1.06066 9.35355ZM-0.5 9V10.0607H0.5V9H-0.5ZM-0.5 12.182V14.3033H0.5V12.182H-0.5ZM-0.5 16.4246V18.5459H0.5V16.4246H-0.5ZM-0.5 20.6673V22.7886H0.5V20.6673H-0.5ZM-0.5 24.9099V27.0312H0.5V24.9099H-0.5ZM-0.5 29.1525V31.2739H0.5V29.1525H-0.5ZM-0.5 33.3952V35.5165H0.5V33.3952H-0.5ZM-0.5 37.6378V39.7591H0.5V37.6378H-0.5ZM-0.5 41.8805V42.9411H0.5V41.8805H-0.5ZM0.353553 43.2947L1.06066 42.5876L0.353553 41.8805L-0.353553 42.5876L0.353553 43.2947ZM2.47487 41.1734L3.88909 39.7591L3.18198 39.052L1.76777 40.4663L2.47487 41.1734ZM5.3033 38.3449L6.71751 36.9307L6.01041 36.2236L4.59619 37.6378L5.3033 38.3449ZM8.13173 35.5165L9.54594 34.1023L8.83883 33.3952L7.42462 34.8094L8.13173 35.5165ZM10.9602 32.6881L12.3744 31.2739L11.6673 30.5668L10.253 31.981L10.9602 32.6881ZM13.7886 29.8596L15.2028 28.4454L14.4957 27.7383L13.0815 29.1525L13.7886 29.8596ZM16.617 27.0312L17.3241 26.3241L16.617 25.617L15.9099 26.3241L16.617 27.0312ZM16.9706 25.9706L17.6777 26.6777L18.3848 25.9706L17.6777 25.2635L16.9706 25.9706ZM0 42.9411H-1V45.3553L0.707107 43.6482L0 42.9411ZM0 9L0.707107 8.29289L-1 6.58579L-1 9H0ZM17.6777 25.2635L16.9706 24.5563L15.5563 25.9706L16.2635 26.6777L17.6777 25.2635ZM15.5563 23.1421L14.1421 21.7279L12.7279 23.1421L14.1421 24.5563L15.5563 23.1421ZM12.7279 20.3137L11.3137 18.8995L9.89949 20.3137L11.3137 21.7279L12.7279 20.3137ZM9.89949 17.4853L8.48528 16.0711L7.07107 17.4853L8.48528 18.8995L9.89949 17.4853ZM7.07107 14.6569L5.65685 13.2426L4.24264 14.6569L5.65685 16.0711L7.07107 14.6569ZM4.24264 11.8284L2.82843 10.4142L1.41421 11.8284L2.82843 13.2426L4.24264 11.8284ZM1.41421 9L0.707107 8.29289L-0.707107 9.70711L3.05205e-07 10.4142L1.41421 9ZM-1 9V10.0607H1V9H-1ZM-1 12.182V14.3033H1V12.182H-1ZM-1 16.4246V18.5459H1V16.4246H-1ZM-1 20.6673V22.7886H1V20.6673H-1ZM-1 24.9099V27.0312H1V24.9099H-1ZM-1 29.1525V31.2739H1V29.1525H-1ZM-1 33.3952V35.5165H1V33.3952H-1ZM-1 37.6378V39.7591H1V37.6378H-1ZM-1 41.8805V42.9411H1V41.8805H-1ZM0.707107 43.6482L1.41421 42.9411L-1.08964e-08 41.5269L-0.707107 42.234L0.707107 43.6482ZM2.82843 41.5269L4.24264 40.1127L2.82843 38.6985L1.41421 40.1127L2.82843 41.5269ZM5.65685 38.6985L7.07107 37.2843L5.65685 35.8701L4.24264 37.2843L5.65685 38.6985ZM8.48528 35.8701L9.89949 34.4558L8.48528 33.0416L7.07107 34.4558L8.48528 35.8701ZM11.3137 33.0416L12.7279 31.6274L11.3137 30.2132L9.89949 31.6274L11.3137 33.0416ZM14.1421 30.2132L15.5563 28.799L14.1421 27.3848L12.7279 28.799L14.1421 30.2132ZM16.9706 27.3848L17.6777 26.6777L16.2635 25.2635L15.5563 25.9706L16.9706 27.3848Z" fill="#151515" mask="url(#path-2-inside-1)"></path>
+                <mask id="path-4-inside-2" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9409 42.9411L50.9115 25.9706L33.9409 9V42.9411Z"></path>
+                </mask>
+                <path class="invert-fill" d="M50.9115 25.9706L51.265 26.3241L51.6186 25.9706L51.265 25.617L50.9115 25.9706ZM33.9409 42.9411H33.4409V44.1482L34.2945 43.2947L33.9409 42.9411ZM33.9409 9L34.2945 8.64645L33.4409 7.79289V9H33.9409ZM51.265 25.617L50.5579 24.9099L49.8508 25.617L50.5579 26.3241L51.265 25.617ZM49.1437 23.4957L47.7295 22.0815L47.0224 22.7886L48.4366 24.2028L49.1437 23.4957ZM46.3153 20.6673L44.9011 19.253L44.194 19.9602L45.6082 21.3744L46.3153 20.6673ZM43.4869 17.8388L42.0726 16.4246L41.3655 17.1317L42.7798 18.5459L43.4869 17.8388ZM40.6584 15.0104L39.2442 13.5962L38.5371 14.3033L39.9513 15.7175L40.6584 15.0104ZM37.83 12.182L36.4158 10.7678L35.7087 11.4749L37.1229 12.8891L37.83 12.182ZM35.0016 9.35355L34.2945 8.64645L33.5874 9.35355L34.2945 10.0607L35.0016 9.35355ZM33.4409 9V10.0607H34.4409V9H33.4409ZM33.4409 12.182V14.3033H34.4409V12.182H33.4409ZM33.4409 16.4246V18.5459H34.4409V16.4246H33.4409ZM33.4409 20.6673V22.7886H34.4409V20.6673H33.4409ZM33.4409 24.9099V27.0312H34.4409V24.9099H33.4409ZM33.4409 29.1525V31.2739H34.4409V29.1525H33.4409ZM33.4409 33.3952V35.5165H34.4409V33.3952H33.4409ZM33.4409 37.6378V39.7591H34.4409V37.6378H33.4409ZM33.4409 41.8805V42.9411H34.4409V41.8805H33.4409ZM34.2945 43.2947L35.0016 42.5876L34.2945 41.8805L33.5874 42.5876L34.2945 43.2947ZM36.4158 41.1734L37.83 39.7591L37.1229 39.052L35.7087 40.4663L36.4158 41.1734ZM39.2442 38.3449L40.6584 36.9307L39.9513 36.2236L38.5371 37.6378L39.2442 38.3449ZM42.0726 35.5165L43.4869 34.1023L42.7798 33.3952L41.3655 34.8094L42.0726 35.5165ZM44.9011 32.6881L46.3153 31.2739L45.6082 30.5668L44.194 31.981L44.9011 32.6881ZM47.7295 29.8596L49.1437 28.4454L48.4366 27.7383L47.0224 29.1525L47.7295 29.8596ZM50.5579 27.0312L51.265 26.3241L50.5579 25.617L49.8508 26.3241L50.5579 27.0312ZM50.9115 25.9706L51.6186 26.6777L52.3257 25.9706L51.6186 25.2635L50.9115 25.9706ZM33.9409 42.9411H32.9409V45.3553L34.648 43.6482L33.9409 42.9411ZM33.9409 9L34.648 8.29289L32.9409 6.58579V9H33.9409ZM51.6186 25.2635L50.9115 24.5563L49.4973 25.9706L50.2044 26.6777L51.6186 25.2635ZM49.4973 23.1421L48.0831 21.7279L46.6688 23.1421L48.0831 24.5563L49.4973 23.1421ZM46.6688 20.3137L45.2546 18.8995L43.8404 20.3137L45.2546 21.7279L46.6688 20.3137ZM43.8404 17.4853L42.4262 16.0711L41.012 17.4853L42.4262 18.8995L43.8404 17.4853ZM41.012 14.6569L39.5978 13.2426L38.1836 14.6569L39.5978 16.0711L41.012 14.6569ZM38.1836 11.8284L36.7693 10.4142L35.3551 11.8284L36.7693 13.2426L38.1836 11.8284ZM35.3551 9L34.648 8.29289L33.2338 9.70711L33.9409 10.4142L35.3551 9ZM32.9409 9V10.0607H34.9409V9H32.9409ZM32.9409 12.182V14.3033H34.9409V12.182H32.9409ZM32.9409 16.4246V18.5459H34.9409V16.4246H32.9409ZM32.9409 20.6673V22.7886H34.9409V20.6673H32.9409ZM32.9409 24.9099V27.0312H34.9409V24.9099H32.9409ZM32.9409 29.1525V31.2739H34.9409V29.1525H32.9409ZM32.9409 33.3952V35.5165H34.9409V33.3952H32.9409ZM32.9409 37.6378V39.7591H34.9409V37.6378H32.9409ZM32.9409 41.8805V42.9411H34.9409V41.8805H32.9409ZM34.648 43.6482L35.3551 42.9411L33.9409 41.5269L33.2338 42.234L34.648 43.6482ZM36.7693 41.5269L38.1836 40.1127L36.7693 38.6985L35.3551 40.1127L36.7693 41.5269ZM39.5978 38.6985L41.012 37.2843L39.5978 35.8701L38.1836 37.2843L39.5978 38.6985ZM42.4262 35.8701L43.8404 34.4558L42.4262 33.0416L41.012 34.4558L42.4262 35.8701ZM45.2546 33.0416L46.6688 31.6274L45.2546 30.2132L43.8404 31.6274L45.2546 33.0416ZM48.0831 30.2132L49.4973 28.799L48.0831 27.3848L46.6688 28.799L48.0831 30.2132ZM50.9115 27.3848L51.6186 26.6777L50.2044 25.2635L49.4973 25.9706L50.9115 27.3848Z" fill="#151515" mask="url(#path-4-inside-2)"></path>
+              </svg></div>
+            <h2 class="heading-2">Velocity</h2>
+            <div class="text-block-4">Nếu là SEO, SEM &amp; PPC thì Markdao  có khả năng giúp bạn đạt được hết, miễn sao bạn trả tiền.<br></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div data-w-id="8c81ba2c-20d7-c5f5-351b-e30dd512f0a6">
+      <section id="expertise" data-w-id="42a01532-d3c9-3bf2-a3aa-3020e76be0bf" class="section expertise4 left-0">
+        <div class="markdao-approach">Cách Markdao tiếp cận vấn đề</div><img src="images/circle-static.png" alt="" id="circle-rotate" class="circle-static clone"><img src="images/circle-rotate.png" alt="" id="circle-rotate" class="circle-rotate clone">
+        <div class="each-epertise">
+          <div class="grid-2 left">
+            <h2 id="w-node-fdb0bd784846-7e2ebcb9" class="heading-white">Tìm ra vấn đề <br>cốt lõi</h2>
+            <div class="text-block-5">It starts with an in-depth immersion into your brand, competitors, cultural trends and the people that play in your space. This helps quickly uncover human insights and hidden opportunities and a positioning that separates your brand from everyone else. Now you have irrefutable reasoning to stand apart in their minds as the clear brand of choice. This is the foundation to your brand behavior and communication.<br></div>
+            <div>
+              <div class="text-block-5">What we would ask<br></div>
+              <ul role="list" class="list-2">
+                <li class="list-item-2">What problems are you facing?</li>
+                <li class="list-item-2">What are your goals you are trying to achieve?</li>
+                <li class="list-item-2">How do your current demographics feel towards your service/product?</li>
+                <li class="list-item-2">How your competitors are performing?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="6586d6d5-f6e6-d63b-3af1-d085d3f01b42">
+          <div class="each-epertise">
+            <div class="grid-2 right">
+              <h2 id="w-node-6d58fedd41d2-7e2ebcb9" class="heading-white">Chiến lược<br>hoá</h2>
+              <div class="text-block-5">It starts with an in-depth immersion into your brand, competitors, cultural trends and the people that play in your space. This helps quickly uncover human insights and hidden opportunities and a positioning that separates your brand from everyone else. Now you have irrefutable reasoning to stand apart in their minds as the clear brand of choice. This is the foundation to your brand behavior and communication.<br></div>
+              <div>
+                <div class="text-block-5">What we would ask<br></div>
+                <ul role="list" class="list-2">
+                  <li class="list-item-2">What problems are you facing?</li>
+                  <li class="list-item-2">What are your goals you are trying to achieve?</li>
+                  <li class="list-item-2">How do your current demographics feel towards your service/product?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="each-epertise">
+            <div class="grid-2 left">
+              <h2 id="w-node-f942c6fbc949-7e2ebcb9" class="heading-white">Ideate it</h2>
+              <div class="text-block-5">It starts with an in-depth immersion into your brand, competitors, cultural trends and the people that play in your space. This helps quickly uncover human insights and hidden opportunities and a positioning that separates your brand from everyone else. Now you have irrefutable reasoning to stand apart in their minds as the clear brand of choice. This is the foundation to your brand behavior and communication.<br></div>
+              <div>
+                <div class="text-block-5">What we would ask<br></div>
+                <ul role="list" class="list-2">
+                  <li class="list-item-2">What problems are you facing?</li>
+                  <li class="list-item-2">What are your goals you are trying to achieve?</li>
+                  <li class="list-item-2">How do your current demographics feel towards your service/product?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="each-epertise">
+            <div class="grid-2 right">
+              <h2 id="w-node-7d6f6b74f99d-7e2ebcb9" class="heading-white">Evaluation</h2>
+              <div class="text-block-5">It starts with an in-depth immersion into your brand, competitors, cultural trends and the people that play in your space. This helps quickly uncover human insights and hidden opportunities and a positioning that separates your brand from everyone else. Now you have irrefutable reasoning to stand apart in their minds as the clear brand of choice. This is the foundation to your brand behavior and communication.<br></div>
+              <div>
+                <div class="text-block-5">What we would ask<br></div>
+                <ul role="list" class="list-2">
+                  <li class="list-item-2">What problems are you facing?</li>
+                  <li class="list-item-2">What are your goals you are trying to achieve?</li>
+                  <li class="list-item-2">How do your current demographics feel towards your service/product?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="each-epertise">
+          <div class="grid-2 right">
+            <h2 id="w-node-b9d670366f63-7e2ebcb9" class="heading-white">Implement</h2>
+            <div class="text-block-5">It starts with an in-depth immersion into your brand, competitors, cultural trends and the people that play in your space. This helps quickly uncover human insights and hidden opportunities and a positioning that separates your brand from everyone else. Now you have irrefutable reasoning to stand apart in their minds as the clear brand of choice. This is the foundation to your brand behavior and communication.<br></div>
+            <div>
+              <div class="text-block-5">What we would ask<br></div>
+              <ul role="list" class="list-2">
+                <li class="list-item-2">What problems are you facing?</li>
+                <li class="list-item-2">What are your goals you are trying to achieve?</li>
+                <li class="list-item-2">How do your current demographics feel towards your service/product?</li>
+              </ul>
+            </div>
+          </div>
+        </div><img src="images/circle-static.png" alt="" id="circle-rotate" class="circle-static clone end"><img src="images/circle-rotate.png" alt="" class="circle-rotate clone end">
+      </section>
+      <div id="markdao-prj" class="section expertise5 left-0">
+        <a data-w-id="9d58e6a1-3e65-aac5-cea2-e45614253adf" href="#" class="link-md-prj w-inline-block">
+          <div class="div-flex half-right">
+            <h1 class="markdao-project">Dự án của Markdao</h1>
+            <div class="asterik w-embed"><svg width="114" height="114" viewbox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.7264 90.5434L60.3521 60.0905C60.4444 59.9059 60.5828 59.6752 60.6751 59.4906C60.9519 58.8447 61.1365 58.1987 61.1827 57.5066C61.1826 57.4143 61.1827 57.322 61.2288 57.2759L61.2288 57.1836L61.2288 57.0913V56.999L61.2288 56.9068C61.2288 56.9068 61.2288 56.9068 61.2288 56.8145C61.2288 56.8145 61.2288 56.8145 61.2288 56.7222L61.1827 56.6761C61.1826 56.5838 61.1826 56.4915 61.1365 56.4454C61.0904 55.7532 60.9058 55.1073 60.629 54.4613C60.5367 54.2767 60.4444 54.0922 60.306 53.8615L42.7264 23.3624C41.2037 20.7324 37.9739 19.9019 35.5284 21.6091C33.0829 23.3163 32.3447 26.823 33.8673 29.453L46.5099 51.3237L22.7474 51.2776C19.8867 51.2776 17.5335 53.8153 17.5335 56.9529C17.5335 60.0905 19.8867 62.6282 22.7474 62.6282L46.4638 62.6282L33.8212 84.4989C32.2986 87.1289 32.9907 90.6818 35.4823 92.3429C37.9739 94.0039 41.1576 93.2195 42.7264 90.5434Z" fill="#175D57"></path>
+                <path d="M62.244 53.585C62.6131 54.4155 62.8438 55.2922 62.9361 56.215L62.9361 56.3073C62.9361 56.3996 62.9361 56.4919 62.9361 56.5841L62.9361 56.861L62.9361 56.9533L62.9361 57.0455L62.9361 57.1378V57.3224C62.9361 57.4147 62.8899 57.5531 62.9361 57.6915C62.8438 58.6143 62.6131 59.491 62.244 60.3215C62.1055 60.5522 62.0133 60.8291 61.8748 61.0598L56.9839 69.5497L72.0258 95.2962L80.8848 89.2057L65.3815 62.6286L94.3579 62.6286V51.2779L65.3815 51.278L80.7925 24.6086L71.9335 18.518L56.8917 44.3568L61.7826 52.8467C61.921 53.0774 62.0594 53.3081 62.244 53.585Z" fill="#175D57"></path>
+              </svg></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="section-footer pr-5vw">
+      <div class="grid">
+        <a id="w-node-47594dd170bb-4dd170b3" data-w-id="b0399b4d-e50c-0239-c61b-47594dd170bb" href="#" class="w-inline-block">
+          <div class="markdao-idea">
+            <h1 class="heading-footer">Thực hiện hoá <span class="text-span">ý tưởng cùng Markdao</span></h1>
+            <div class="asterik w-embed"><svg width="114" height="114" viewbox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.7264 90.5434L60.3521 60.0905C60.4444 59.9059 60.5828 59.6752 60.6751 59.4906C60.9519 58.8447 61.1365 58.1987 61.1827 57.5066C61.1826 57.4143 61.1827 57.322 61.2288 57.2759L61.2288 57.1836L61.2288 57.0913V56.999L61.2288 56.9068C61.2288 56.9068 61.2288 56.9068 61.2288 56.8145C61.2288 56.8145 61.2288 56.8145 61.2288 56.7222L61.1827 56.6761C61.1826 56.5838 61.1826 56.4915 61.1365 56.4454C61.0904 55.7532 60.9058 55.1073 60.629 54.4613C60.5367 54.2767 60.4444 54.0922 60.306 53.8615L42.7264 23.3624C41.2037 20.7324 37.9739 19.9019 35.5284 21.6091C33.0829 23.3163 32.3447 26.823 33.8673 29.453L46.5099 51.3237L22.7474 51.2776C19.8867 51.2776 17.5335 53.8153 17.5335 56.9529C17.5335 60.0905 19.8867 62.6282 22.7474 62.6282L46.4638 62.6282L33.8212 84.4989C32.2986 87.1289 32.9907 90.6818 35.4823 92.3429C37.9739 94.0039 41.1576 93.2195 42.7264 90.5434Z" fill="#175D57"></path>
+                <path d="M62.244 53.585C62.6131 54.4155 62.8438 55.2922 62.9361 56.215L62.9361 56.3073C62.9361 56.3996 62.9361 56.4919 62.9361 56.5841L62.9361 56.861L62.9361 56.9533L62.9361 57.0455L62.9361 57.1378V57.3224C62.9361 57.4147 62.8899 57.5531 62.9361 57.6915C62.8438 58.6143 62.6131 59.491 62.244 60.3215C62.1055 60.5522 62.0133 60.8291 61.8748 61.0598L56.9839 69.5497L72.0258 95.2962L80.8848 89.2057L65.3815 62.6286L94.3579 62.6286V51.2779L65.3815 51.278L80.7925 24.6086L71.9335 18.518L56.8917 44.3568L61.7826 52.8467C61.921 53.0774 62.0594 53.3081 62.244 53.585Z" fill="#175D57"></path>
+              </svg></div>
+          </div>
+          <div class="markdao-idea-mobi">
+            <h1 class="heading-footer">Thực hiện hoá <span class="text-span">ý tưởng</span><br>cùng Markdao</h1>
+            <div class="asterik idea w-embed"><svg width="90" height="90" viewbox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.7264 90.5434L60.3521 60.0905C60.4444 59.9059 60.5828 59.6752 60.6751 59.4906C60.9519 58.8447 61.1365 58.1987 61.1827 57.5066C61.1826 57.4143 61.1827 57.322 61.2288 57.2759L61.2288 57.1836L61.2288 57.0913V56.999L61.2288 56.9068C61.2288 56.9068 61.2288 56.9068 61.2288 56.8145C61.2288 56.8145 61.2288 56.8145 61.2288 56.7222L61.1827 56.6761C61.1826 56.5838 61.1826 56.4915 61.1365 56.4454C61.0904 55.7532 60.9058 55.1073 60.629 54.4613C60.5367 54.2767 60.4444 54.0922 60.306 53.8615L42.7264 23.3624C41.2037 20.7324 37.9739 19.9019 35.5284 21.6091C33.0829 23.3163 32.3447 26.823 33.8673 29.453L46.5099 51.3237L22.7474 51.2776C19.8867 51.2776 17.5335 53.8153 17.5335 56.9529C17.5335 60.0905 19.8867 62.6282 22.7474 62.6282L46.4638 62.6282L33.8212 84.4989C32.2986 87.1289 32.9907 90.6818 35.4823 92.3429C37.9739 94.0039 41.1576 93.2195 42.7264 90.5434Z" fill="#175D57"></path>
+                <path d="M62.244 53.585C62.6131 54.4155 62.8438 55.2922 62.9361 56.215L62.9361 56.3073C62.9361 56.3996 62.9361 56.4919 62.9361 56.5841L62.9361 56.861L62.9361 56.9533L62.9361 57.0455L62.9361 57.1378V57.3224C62.9361 57.4147 62.8899 57.5531 62.9361 57.6915C62.8438 58.6143 62.6131 59.491 62.244 60.3215C62.1055 60.5522 62.0133 60.8291 61.8748 61.0598L56.9839 69.5497L72.0258 95.2962L80.8848 89.2057L65.3815 62.6286L94.3579 62.6286V51.2779L65.3815 51.278L80.7925 24.6086L71.9335 18.518L56.8917 44.3568L61.7826 52.8467C61.921 53.0774 62.0594 53.3081 62.244 53.585Z" fill="#175D57"></path>
+              </svg></div>
+          </div>
+        </a>
+        <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-footer w-nav">
+          <a href="#" class="nav-link-footer w-nav-link">Về chúng tôi</a>
+          <a href="expertise.html" aria-current="page" class="nav-link-footer w-nav-link w--current">Chuyên môn</a>
+          <a href="#" class="nav-link-footer w-nav-link">Dự án</a>
+          <a href="#" class="nav-link-footer w-nav-link">Góc nhìn</a>
+          <a href="#" class="nav-link-footer w-nav-link">Nghề nghiệp</a>
+        </div>
+        <div class="w-embed">
+          <style>
+	a.nav-link-footer:not(.w--current):after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #151515;
+    transition: all 500ms ease;
+    opacity: 0;
+	}
+	a.nav-link-footer:not(.w--current):hover:after {
+    opacity: 1;
+    width: 100%;
+	}
+</style>
+        </div>
+      </div>
+      <div class="mt-40">
+        <div class="show-onmobile invert-filter">
+          <a href="https://www.facebook.com/MarkdaoVNdigitalmarketing" target="_blank" class="link-button w-inline-block"><img src="images/facebook-black.png" loading="lazy" alt=""></a>
+          <a href="#" class="link-button w-inline-block"><img src="images/instagram-black.png" loading="lazy" alt=""></a>
+        </div>
+        <ul role="list" class="list w-list-unstyled">
+          <li class="list-item">info@markdao.com.vn</li>
+          <li class="list-item">+84 79 993 1071</li>
+          <li class="list-item">14 Phan Ton, DaKao, District 1, HCMC</li>
+        </ul>
+      </div>
+      <div class="div-flex-center copy-right">
+        <div class="text-block-3"><span class="text-span">Markdao © Copyright 2020.</span> <span class="text-span">All Rights Reserved</span></div>
+        <a href="#" class="link-2">Privacy Policy</a>
+      </div>
+    </div>
+  </div><img src="images/circle-static.png" alt="" data-w-id="6d0beea8-fbdc-9c99-3cc9-20d0178b5ae3" id="circle-rotate2" class="circle-static real"><img src="images/circle-rotate.png" alt="" data-w-id="b694bebf-7929-70fe-0e5d-ce2188dc19c2" class="circle-rotate real">
+  <div class="w-embed">
+    <style>
+@media only screen and (min-width: 1024px) {
+  .section.left-0 {
+      margin-left: calc(-100px - 10vw);
+  }
+  .circle-rotate {
+      left: calc(100px + 10vw);
+  }
+  .circle-static {
+      left: calc(100px + 10vw);
+  }
+  .markdao-approach {
+      left: calc(100px + 10vw);
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .circle-rotate {
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+  }
+}
+</style>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f6aacb41dde085f1ea422a2" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+  function setThemeFromCookie() {
+   const themeState = document.body;
+   themeState.className = isThemeSelected() ? 'dark-mode' : 'light-mode';
+  }
+  function setThemeSwitchState() {
+  	document.getElementById('toggleTheme').checked = isThemeSelected();
+    document.getElementById('toggleThemeBlack').checked = document.getElementById('toggleTheme').checked;
+    document.getElementById('toggleThemeMobi').checked = document.getElementById('toggleTheme').checked;
+  }
+  function isThemeSelected() {
+   return document.cookie.match(/theme=dark/i) != null;
+  }
+  function toggleTheme() {
+   document.body.style.transition = "background-color 1s";
+   document.getElementById('toggleThemeBlack').checked = document.getElementById('toggleTheme').checked;
+   const themeState = document.body;
+   const currentState = themeState.className;
+   const newState = themeState.className == 'dark-mode' ? 'light-mode' : 'dark-mode';
+   themeState.className = newState;
+   document.cookie = 'theme=' + (newState == 'light-mode' ? 'light' : 'dark');
+  }
+  (function() {
+   setThemeFromCookie();
+   setThemeSwitchState();
+   document.getElementById('toggleTheme').onchange=toggleTheme;
+   document.getElementById('toggleThemeMobi').onchange=toggleTheme;
+  })();
+</script>
+  <script>
+	var navLink = document.getElementsByClassName("nav-link front");
+	var navLinkB = document.getElementsByClassName("nav-link behide");
+	(function() {
+  		for (i = 0; i < navLink.length; i++) {
+    		navLink[i].addEventListener("mouseover", mouseOver);
+  			navLink[i].addEventListener("mouseout", mouseOut);
+   		}
+  	})();
+	function mouseOver(event) {
+		var searchText = event.target.text;
+		var found;
+		for (var i = 0; i < navLinkB.length; i++) {
+  			if (navLinkB[i].text == searchText) {
+    			found = navLinkB[i];
+    			break;
+  			}
+		}
+      	found.classList.add("hover");
+	}
+	function mouseOut(event) {
+ 	   var searchText = event.target.text;
+		var found;
+		for (var i = 0; i < navLinkB.length; i++) {
+  			if (navLinkB[i].text == searchText) {
+    			found = navLinkB[i];
+    			break;
+  			}
+		}
+      	found.classList.remove("hover");
+	}
+</script>
+  <script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
+  <script charset="utf-8">
+var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+if (!isMobile) {
+     luxy.init({
+       wrapper: '#luxy',
+       wrapperSpeed: 0.3,
+   });
+}
+</script>
+  <script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    if (window.innerWidth > 1024) {
+      var currentScrollPos = window.pageYOffset;
+      var navbarBehide = document.getElementById("navbar");
+      var navbarFront = document.getElementById("navbar-front");
+      var asteriskLogo = document.getElementById("Asterisk-logo");
+      var asteriskContact = document.getElementById("Asterisk-contact");
+      if (prevScrollpos > currentScrollPos) {
+        navbarBehide.style.opacity = 1;
+        navbarBehide.style.top = "0";
+        navbarFront.style.opacity = 1;
+        navbarFront.style.top = "0";
+        asteriskContact.classList.remove("make-move");
+        asteriskLogo.classList.remove("make-big");
+      } 
+      else {
+        navbarBehide.style.opacity = 0;
+        navbarBehide.style.top = "-100px";
+        navbarFront.style.opacity = 0;
+        navbarFront.style.top = "-100px";
+        asteriskLogo.classList.add("make-big");
+        asteriskContact.classList.add("make-move");
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  }
+</script>
+</body>
+</html>
